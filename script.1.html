@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Speedometer GOKUL</title>
+    <script src="script.js"></script>
+</head>
+<body onload='draw(0);'>
+    <canvas id="speedometer" width="550" height="330">Canvas not available.</canvas>
+  <div>
+        <form id="drawTemp">
+            <input type="text" id="txtSpeed" name="txtSpeed" value="20" maxlength="3"/>
+            <input type="button" value="Set Speed" onclick="drawWithInputValue();">
+        </form>
+    </div>  
+</body>
+</html>
